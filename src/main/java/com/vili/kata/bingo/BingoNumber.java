@@ -8,4 +8,8 @@ public class BingoNumber {
     public BingoNumber(Integer number) {
         this.number = number;
     }
+
+    public Integer getNumber() {
+        return number;
+    }
 }

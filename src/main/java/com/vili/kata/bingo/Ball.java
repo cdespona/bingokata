@@ -12,4 +12,8 @@ public class Ball {
         this.prize = prize;
         this.card = card;
     }
+
+    public Integer getNumber() {
+        return number.getNumber();
+    }
 }
